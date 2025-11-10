@@ -1,4 +1,3 @@
-import HelmetTitle from "@/components/layout/HelmetTitle";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -125,7 +124,6 @@ export default function FeaturesPage() {
 
   return (
     <div className="min-h-screen bg-background">
-      <HelmetTitle title="Platform Capabilities" />
 
       {/* Hero Section - Elevated Typography */}
       <section className="py-24 px-4 bg-gradient-to-br from-primary/5 to-secondary/5">

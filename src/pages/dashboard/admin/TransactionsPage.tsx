@@ -24,7 +24,7 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import SkeletonTable from "./skeletons/TabelSkeletons";
-import { useGetAllWalletsQuery } from "@/redux/api/userApi";
+import { useGetBalanceQuery } from "@/redux/api/walletApi";
 
 export default function AdminTransactionsPage() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -36,7 +36,7 @@ export default function AdminTransactionsPage() {
   const itemsPerPage = 10;
 
   // ✅ Fetch all wallets
-  const { data: walletsData, isLoading: walletsIsLoading } = useGetAllWalletsQuery();
+  const { data: walletsData, isLoading: walletsIsLoading } = useGetBalanceQuery();
 
   const wallets = Array.isArray(walletsData?.data)
     ? walletsData.data

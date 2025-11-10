@@ -82,7 +82,7 @@ export default function LoginPage() {
 
   // Demo credentials for quick access
   const demoCredentials = [
-    { role: "user", email: "user@gmail.com", password: "demo1234" },
+    { role: "user", email: "testuser@example.com", password: "Password@123" },
     { role: "agent", email: "agent@agent.com", password: "Password@123" },
     { role: "admin", email: "admin@admin.com", password: "Password@123" },
   ];
@@ -121,10 +121,7 @@ export default function LoginPage() {
       <div className="w-full max-w-md space-y-6">
         {/* Brand Logo */}
         <div className="text-center">
-          <div className="mx-auto w-16 h-16 bg-primary rounded-xl flex items-center justify-center mb-3 shadow-md">
-            <TrendingUp className="h-8 w-8 text-primary-foreground" />
-          </div>
-          <h1 className="text-3xl font-bold text-foreground">AppTrack</h1>
+         
           <p className="text-muted-foreground text-sm mt-1">
             Sign in to your account
           </p>
