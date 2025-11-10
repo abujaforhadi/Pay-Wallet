@@ -4,19 +4,23 @@ A modern, responsive frontend application for managing digital wallet operations
 
 ## Live Demo
 
-[hhttps://digital-wallet-client-omega.vercel.app](hhttps://digital-wallet-client-omega.vercel.app)
 
 ---
 
 ## Table of Contents
 
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Folder Structure](#folder-structure)
-- [Contributing](#contributing)
-- [License](#license)
+- [Digital Wallet Client](#digital-wallet-client)
+  - [Live Demo](#live-demo)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Tech Stack](#tech-stack)
+  - [Installation](#installation)
+    - [Prerequisites](#prerequisites)
+    - [Steps](#steps)
+  - [Usage](#usage)
+  - [Folder Structure](#folder-structure)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ---
 
@@ -55,9 +59,7 @@ A modern, responsive frontend application for managing digital wallet operations
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/muhammadranju/digital-wallet-client.git
-   cd digital-wallet-client
+
    ```
 
 2. Install dependencies:
